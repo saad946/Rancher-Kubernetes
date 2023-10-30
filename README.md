@@ -256,11 +256,11 @@ $ENV:KUBECONFIG="<path-to-kubeconfig>"
 Deploy 2 pods, and a service:
 
 ```
-kubectl create ns marcel
-kubectl -n marcel apply -f .\kubernetes\configmaps\configmap.yaml
-kubectl -n marcel apply -f .\kubernetes\secrets\secret.yaml
-kubectl -n marcel apply -f .\kubernetes\deployments\deployment.yaml
-kubectl -n marcel apply -f .\kubernetes\services\service.yaml
+kubectl create ns saad
+kubectl -n saad apply -f .\kubernetes\configmaps\configmap.yaml
+kubectl -n saad apply -f .\kubernetes\secrets\secret.yaml
+kubectl -n saad apply -f .\kubernetes\deployments\deployment.yaml
+kubectl -n saad apply -f .\kubernetes\services\service.yaml
 ```
 
 One caveat is because we are not a cloud provider, Kubernetes does not support our service `type=LoadBalancer`. </br>
@@ -268,11 +268,11 @@ For that, we need something like `metallb`. </br>
 However - we can `port-forward`
 
 ```
-kubectl -n marcel get svc 
+kubectl -n saad get svc 
 NAME              TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 example-service   LoadBalancer   10.43.235.240   <pending>     80:31310/TCP   13s
 
-kubectl -n marcel port-forward svc/example-service 81:80
+kubectl -n saad port-forward svc/example-service 81:80
 ```
 
 We can access our example-app on port 81
