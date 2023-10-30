@@ -1,0 +1,1000 @@
+2023/10/25 17:37:15 [INFO] Rancher version v2.7.8 (feffc3aed) is starting
+2023/10/25 17:37:15 [INFO] Rancher arguments {ACMEDomains:[] AddLocal:true Embedded:false BindHost: HTTPListenPort:80 HTTPSListenPort:443 K8sMode:auto Debug:false Trace:false NoCACerts:false AuditLogPath:/var/log/auditlog/rancher-api-audit.log AuditLogMaxage:10 AuditLogMaxsize:100 AuditLogMaxbackup:10 AuditLevel:0 Features: ClusterRegistry:}
+2023/10/25 17:37:15 [INFO] Listening on /tmp/log.sock
+2023/10/25 17:37:15 [INFO] Waiting for k3s to start
+2023/10/25 17:37:16 [INFO] Waiting for k3s to start
+2023/10/25 17:37:17 [INFO] Waiting for k3s to start
+2023/10/25 17:37:18 [INFO] Waiting for server to become available: the server is currently unable to handle the request
+2023/10/25 17:37:20 [INFO] Waiting for server to become available: the server is currently unable to handle the request
+2023/10/25 17:37:22 [INFO] Waiting for server to become available: the server is currently unable to handle the request
+2023/10/25 17:37:24 [INFO] Waiting for server to become available: the server is currently unable to handle the request
+2023/10/25 17:37:31 [INFO] Running in single server mode, will not peer connections
+2023/10/25 17:37:32 [INFO] Applying CRD features.management.cattle.io
+2023/10/25 17:37:32 [INFO] Waiting for CRD features.management.cattle.io to become available
+2023/10/25 17:37:32 [INFO] Done waiting for CRD features.management.cattle.io to become available
+2023/10/25 17:37:34 [INFO] Creating embedded CRD roletemplates.management.cattle.io
+2023/10/25 17:37:34 [INFO] Waiting for CRD roletemplates.management.cattle.io to become available
+2023/10/25 17:37:35 [INFO] Done waiting for CRD roletemplates.management.cattle.io to become available
+2023/10/25 17:37:35 [INFO] Applying CRD navlinks.ui.cattle.io
+2023/10/25 17:37:35 [INFO] Applying CRD podsecurityadmissionconfigurationtemplates.management.cattle.io
+2023/10/25 17:37:35 [INFO] Applying CRD clusters.management.cattle.io
+2023/10/25 17:37:36 [INFO] Applying CRD apiservices.management.cattle.io
+2023/10/25 17:37:36 [INFO] Applying CRD clusterregistrationtokens.management.cattle.io
+2023/10/25 17:37:36 [INFO] Applying CRD settings.management.cattle.io
+2023/10/25 17:37:37 [INFO] Applying CRD preferences.management.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD features.management.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD clusterrepos.catalog.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD operations.catalog.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD apps.catalog.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD fleetworkspaces.management.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD clustergroups.fleet.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD bundles.fleet.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD clusters.fleet.cattle.io
+2023/10/25 17:37:38 [INFO] Applying CRD managedcharts.management.cattle.io
+2023/10/25 17:37:39 [INFO] Applying CRD clusters.provisioning.cattle.io
+2023/10/25 17:37:39 [INFO] Applying CRD clusters.provisioning.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD rkeclusters.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD rkecontrolplanes.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD rkebootstraps.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD rkebootstraptemplates.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD rkecontrolplanes.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD custommachines.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD etcdsnapshots.rke.cattle.io
+2023/10/25 17:37:40 [INFO] Applying CRD clusters.cluster.x-k8s.io
+2023/10/25 17:37:40 [INFO] Applying CRD machinedeployments.cluster.x-k8s.io
+2023/10/25 17:37:40 [INFO] Applying CRD machinehealthchecks.cluster.x-k8s.io
+2023/10/25 17:37:41 [INFO] Applying CRD machines.cluster.x-k8s.io
+2023/10/25 17:37:41 [INFO] Applying CRD machinesets.cluster.x-k8s.io
+2023/10/25 17:37:41 [INFO] Waiting for CRD machinesets.cluster.x-k8s.io to become available
+2023/10/25 17:37:42 [INFO] Done waiting for CRD machinesets.cluster.x-k8s.io to become available
+2023/10/25 17:37:42 [INFO] Creating CRD authconfigs.management.cattle.io
+2023/10/25 17:37:42 [INFO] Creating CRD groupmembers.management.cattle.io
+2023/10/25 17:37:42 [INFO] Creating CRD groups.management.cattle.io
+2023/10/25 17:37:42 [INFO] Creating CRD tokens.management.cattle.io
+2023/10/25 17:37:42 [INFO] Creating CRD userattributes.management.cattle.io
+2023/10/25 17:37:43 [INFO] Creating CRD users.management.cattle.io
+2023/10/25 17:37:43 [INFO] Waiting for CRD users.management.cattle.io to become available
+2023/10/25 17:37:43 [INFO] Done waiting for CRD users.management.cattle.io to become available
+2023/10/25 17:37:43 [INFO] Waiting for CRD userattributes.management.cattle.io to become available
+2023/10/25 17:37:44 [INFO] Done waiting for CRD userattributes.management.cattle.io to become available
+2023/10/25 17:37:49 [INFO] Creating CRD catalogs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD apps.project.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD catalogtemplates.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clusterroletemplatebindings.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD apprevisions.project.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD dynamicschemas.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD catalogtemplateversions.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clusteralerts.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD etcdbackups.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clusteralertgroups.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD globalrolebindings.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD globalroles.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clustercatalogs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clusteralertrules.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD kontainerdrivers.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clustermonitorgraphs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD nodedrivers.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD composeconfigs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD nodepools.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD multiclusterapps.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD nodetemplates.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD multiclusterapprevisions.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD nodes.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD monitormetrics.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD podsecuritypolicytemplateprojectbindings.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD notifiers.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD podsecuritypolicytemplates.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectalerts.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectalertgroups.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectnetworkpolicies.management.cattle.io
+2023/10/25 17:37:49 [INFO] Waiting for CRD apprevisions.project.cattle.io to become available
+2023/10/25 17:37:49 [INFO] Creating CRD projectcatalogs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectroletemplatebindings.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectalertrules.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projects.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD projectmonitorgraphs.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD rkek8ssystemimages.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD templates.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD rkek8sserviceoptions.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD templateversions.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD rkeaddons.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD templatecontents.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD samltokens.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD globaldnses.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clustertemplates.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD globaldnsproviders.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD clustertemplaterevisions.management.cattle.io
+2023/10/25 17:37:49 [INFO] Creating CRD rancherusernotifications.management.cattle.io
+2023/10/25 17:37:50 [INFO] Waiting for CRD podsecuritypolicytemplateprojectbindings.management.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Waiting for CRD clusteralertrules.management.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Done waiting for CRD clusteralertrules.management.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Waiting for CRD projectalertgroups.management.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Waiting for CRD apprevisions.project.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Done waiting for CRD apprevisions.project.cattle.io to become available
+2023/10/25 17:37:50 [INFO] Waiting for CRD apps.project.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Waiting for CRD podsecuritypolicytemplateprojectbindings.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Done waiting for CRD podsecuritypolicytemplateprojectbindings.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Waiting for CRD projectroletemplatebindings.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Done waiting for CRD projectalertgroups.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Waiting for CRD catalogs.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Done waiting for CRD apps.project.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Done waiting for CRD projectroletemplatebindings.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Waiting for CRD projects.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Done waiting for CRD catalogs.management.cattle.io to become available
+2023/10/25 17:37:51 [INFO] Waiting for CRD catalogtemplates.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Done waiting for CRD projects.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Waiting for CRD etcdbackups.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Done waiting for CRD catalogtemplates.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Waiting for CRD clusteralerts.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Done waiting for CRD etcdbackups.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Waiting for CRD nodetemplates.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Done waiting for CRD clusteralerts.management.cattle.io to become available
+2023/10/25 17:37:52 [INFO] Waiting for CRD multiclusterapprevisions.management.cattle.io to become available
+2023/10/25 17:37:53 [INFO] Done waiting for CRD multiclusterapprevisions.management.cattle.io to become available
+2023/10/25 17:37:53 [INFO] Waiting for CRD notifiers.management.cattle.io to become available
+2023/10/25 17:37:53 [INFO] Done waiting for CRD nodetemplates.management.cattle.io to become available
+2023/10/25 17:37:53 [INFO] Waiting for CRD podsecuritypolicytemplates.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Done waiting for CRD notifiers.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Waiting for CRD projectalerts.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Done waiting for CRD podsecuritypolicytemplates.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Waiting for CRD rkek8ssystemimages.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Done waiting for CRD projectalerts.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Waiting for CRD templatecontents.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Done waiting for CRD rkek8ssystemimages.management.cattle.io to become available
+2023/10/25 17:37:54 [INFO] Waiting for CRD rkek8sserviceoptions.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Done waiting for CRD templatecontents.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Waiting for CRD catalogtemplateversions.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Done waiting for CRD rkek8sserviceoptions.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Waiting for CRD globalroles.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Done waiting for CRD catalogtemplateversions.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Waiting for CRD clusteralertgroups.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Done waiting for CRD globalroles.management.cattle.io to become available
+2023/10/25 17:37:55 [INFO] Waiting for CRD nodedrivers.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Done waiting for CRD nodedrivers.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Waiting for CRD nodes.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Done waiting for CRD clusteralertgroups.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Waiting for CRD clustercatalogs.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Done waiting for CRD nodes.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Waiting for CRD samltokens.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Done waiting for CRD clustercatalogs.management.cattle.io to become available
+2023/10/25 17:37:56 [INFO] Waiting for CRD monitormetrics.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Done waiting for CRD samltokens.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Waiting for CRD clustertemplates.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Done waiting for CRD monitormetrics.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Waiting for CRD templateversions.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Done waiting for CRD clustertemplates.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Waiting for CRD clustertemplaterevisions.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Done waiting for CRD templateversions.management.cattle.io to become available
+2023/10/25 17:37:57 [INFO] Waiting for CRD globaldnsproviders.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Done waiting for CRD globaldnsproviders.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Waiting for CRD globaldnses.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Done waiting for CRD clustertemplaterevisions.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Waiting for CRD nodepools.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Done waiting for CRD nodepools.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Waiting for CRD rkeaddons.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Done waiting for CRD globaldnses.management.cattle.io to become available
+2023/10/25 17:37:58 [INFO] Waiting for CRD clustermonitorgraphs.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Done waiting for CRD rkeaddons.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Waiting for CRD clusterroletemplatebindings.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Done waiting for CRD clustermonitorgraphs.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Waiting for CRD composeconfigs.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Done waiting for CRD clusterroletemplatebindings.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Waiting for CRD dynamicschemas.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Done waiting for CRD composeconfigs.management.cattle.io to become available
+2023/10/25 17:37:59 [INFO] Waiting for CRD multiclusterapps.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Done waiting for CRD dynamicschemas.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Waiting for CRD globalrolebindings.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Done waiting for CRD multiclusterapps.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Waiting for CRD projectcatalogs.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Done waiting for CRD globalrolebindings.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Waiting for CRD projectnetworkpolicies.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Done waiting for CRD projectcatalogs.management.cattle.io to become available
+2023/10/25 17:38:00 [INFO] Waiting for CRD projectalertrules.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Done waiting for CRD projectnetworkpolicies.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Waiting for CRD kontainerdrivers.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Done waiting for CRD projectalertrules.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Waiting for CRD projectmonitorgraphs.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Done waiting for CRD projectmonitorgraphs.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Waiting for CRD templates.management.cattle.io to become available
+2023/10/25 17:38:01 [INFO] Done waiting for CRD kontainerdrivers.management.cattle.io to become available
+2023/10/25 17:38:02 [INFO] Done waiting for CRD templates.management.cattle.io to become available
+2023/10/25 17:38:02 [INFO] Waiting for CRD rancherusernotifications.management.cattle.io to become available
+2023/10/25 17:38:02 [INFO] Done waiting for CRD rancherusernotifications.management.cattle.io to become available
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=GroupMember controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=CatalogTemplateVersion controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=NodeDriver controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=RoleTemplate controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=PodSecurityPolicyTemplate controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=ProjectRoleTemplateBinding controller
+2023/10/25 17:39:18 [INFO] Starting cluster.x-k8s.io/v1beta1, Kind=Machine controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=GlobalDns controller
+2023/10/25 17:39:18 [INFO] Starting /v1, Kind=Namespace controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=RkeAddon controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=Node controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=RkeK8sServiceOption controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=UserAttribute controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=KontainerDriver controller
+2023/10/25 17:39:18 [INFO] Starting catalog.cattle.io/v1, Kind=ClusterRepo controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=Token controller
+2023/10/25 17:39:18 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=ClusterRole controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=Preference controller
+2023/10/25 17:39:18 [INFO] Starting API controllers
+2023/10/25 17:39:18 [INFO] Starting /v1, Kind=ServiceAccount controller
+2023/10/25 17:39:18 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=RoleBinding controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=ProjectCatalog controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=GlobalRoleBinding controller
+2023/10/25 17:39:18 [INFO] Starting /v1, Kind=Secret controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=ClusterRegistrationToken controller
+2023/10/25 17:39:18 [INFO] Starting management.cattle.io/v3, Kind=Setting controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=NodeTemplate controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=MultiClusterApp controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=ClusterTemplateRevision controller
+2023/10/25 17:39:19 [INFO] Starting provisioning.cattle.io/v1, Kind=Cluster controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=ClusterCatalog controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=AuthConfig controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=Project controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=Feature controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=User controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=ClusterRoleTemplateBinding controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=CatalogTemplate controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=DynamicSchema controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=Catalog controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=NodePool controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=APIService controller
+2023/10/25 17:39:19 [INFO] Starting management.cattle.io/v3, Kind=RkeK8sSystemImage controller
+2023/10/25 17:39:19 [INFO] Starting apiregistration.k8s.io/v1, Kind=APIService controller
+2023/10/25 17:39:20 [INFO] Starting rke.cattle.io/v1, Kind=RKEBootstrap controller
+2023/10/25 17:39:20 [INFO] Starting /v1, Kind=ConfigMap controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=Cluster controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=PodSecurityPolicyTemplateProjectBinding controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=GroupMember controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=Cluster controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=MultiClusterAppRevision controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=GlobalRole controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=Token controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=User controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=UserAttribute controller
+2023/10/25 17:39:20 [INFO] Starting /v1, Kind=Secret controller
+2023/10/25 17:39:20 [INFO] Starting /v1, Kind=ConfigMap controller
+2023/10/25 17:39:20 [INFO] Waiting for initial data to be populated
+2023/10/25 17:39:20 [INFO] Starting apiextensions.k8s.io/v1, Kind=CustomResourceDefinition controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=Group controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=ClusterTemplate controller
+2023/10/25 17:39:20 [INFO] Starting management.cattle.io/v3, Kind=Group controller
+2023/10/25 17:39:20 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=ClusterRoleBinding controller
+2023/10/25 17:39:20 [INFO] Starting project.cattle.io/v3, Kind=App controller
+2023/10/25 17:39:20 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=Role controller
+2023/10/25 17:39:20 [INFO] 
+2023/10/25 17:39:20 [INFO] -----------------------------------------
+2023/10/25 17:39:20 [INFO] Welcome to Rancher
+2023/10/25 17:39:20 [INFO] A bootstrap password has been generated for your admin user.
+2023/10/25 17:39:20 [INFO] 
+2023/10/25 17:39:20 [INFO] Bootstrap Password: kwxb4kffw2vb4vdpqqdc8td4hpdzgv6sm4whlhc6mchjxzvx8b2cjq
+2023/10/25 17:39:20 [INFO] 
+2023/10/25 17:39:20 [INFO] Use https://172.17.0.2/dashboard/?setup=kwxb4kffw2vb4vdpqqdc8td4hpdzgv6sm4whlhc6mchjxzvx8b2cjq to complete setup in the UI
+2023/10/25 17:39:20 [INFO] -----------------------------------------
+2023/10/25 17:39:20 [INFO] 
+2023/10/25 17:39:21 [INFO] Created default admin user and binding
+2023/10/25 17:39:21 [INFO] Reconciling GlobalRoles
+2023/10/25 17:39:21 [INFO] Creating clustertemplates-create
+2023/10/25 17:39:21 [INFO] Creating admin
+2023/10/25 17:39:21 [INFO] Creating user-base
+2023/10/25 17:39:21 [INFO] Creating kontainerdrivers-manage
+2023/10/25 17:39:21 [INFO] Creating catalogs-manage
+2023/10/25 17:39:22 [INFO] Creating users-manage
+2023/10/25 17:39:22 [INFO] Creating clustertemplaterevisions-create
+2023/10/25 17:39:22 [INFO] Waiting for initial data to be populated
+2023/10/25 17:39:22 [INFO] Creating restricted-admin
+2023/10/25 17:39:22 [INFO] Steve auth startup complete
+2023/10/25 17:39:23 [INFO] Creating nodedrivers-manage
+2023/10/25 17:39:23 [INFO] Creating authn-manage
+2023/10/25 17:39:23 [INFO] Creating podsecuritypolicytemplates-manage
+2023/10/25 17:39:23 [INFO] Creating features-manage
+2023/10/25 17:39:23 [INFO] Creating user
+2023/10/25 17:39:24 [INFO] Creating settings-manage
+2023/10/25 17:39:24 [INFO] Creating view-rancher-metrics
+2023/10/25 17:39:24 [INFO] Creating clusters-create
+2023/10/25 17:39:24 [INFO] Creating catalogs-use
+2023/10/25 17:39:24 [INFO] Creating roles-manage
+2023/10/25 17:39:24 [INFO] Reconciling RoleTemplates
+2023/10/25 17:39:24 [INFO] Creating navlinks-view
+2023/10/25 17:39:25 [INFO] Waiting for initial data to be populated
+2023/10/25 17:39:25 [INFO] Creating edit
+2023/10/25 17:39:25 [INFO] Creating cluster-owner
+2023/10/25 17:39:25 [INFO] Creating nodes-manage
+2023/10/25 17:39:26 [INFO] Creating persistentvolumeclaims-manage
+2023/10/25 17:39:26 [INFO] Creating projectroletemplatebindings-manage
+2023/10/25 17:39:26 [INFO] Creating monitoring-ui-view
+2023/10/25 17:39:26 [INFO] Creating cluster-admin
+2023/10/25 17:39:26 [INFO] Creating read-only
+2023/10/25 17:39:26 [INFO] Registering namespaceHandler for adding labels 
+2023/10/25 17:39:26 [INFO] Creating ingress-view
+2023/10/25 17:39:27 [INFO] Creating services-manage
+2023/10/25 17:39:27 [INFO] Waiting for initial data to be populated
+2023/10/25 17:39:27 [INFO] Creating persistentvolumeclaims-view
+2023/10/25 17:39:27 [INFO] Creating secrets-manage
+2023/10/25 17:39:27 [INFO] Creating projectcatalogs-manage
+2023/10/25 17:39:27 [INFO] Creating projectcatalogs-view
+2023/10/25 17:39:27 [INFO] Creating view
+2023/10/25 17:39:28 [INFO] Creating projects-view
+2023/10/25 17:39:28 [INFO] Creating clustercatalogs-manage
+2023/10/25 17:39:28 [INFO] Creating project-owner
+2023/10/25 17:39:28 [INFO] Creating create-ns
+2023/10/25 17:39:28 [INFO] Creating backups-manage
+2023/10/25 17:39:28 [INFO] Creating navlinks-manage
+2023/10/25 17:39:28 [INFO] Creating workloads-view
+2023/10/25 17:39:28 [INFO] Creating nodes-view
+2023/10/25 17:39:28 [INFO] Creating project-member
+2023/10/25 17:39:28 [INFO] Creating configmaps-manage
+2023/10/25 17:39:28 [INFO] Creating configmaps-view
+2023/10/25 17:39:28 [INFO] Creating projectroletemplatebindings-view
+2023/10/25 17:39:28 [INFO] Creating clustercatalogs-view
+2023/10/25 17:39:28 [INFO] Creating workloads-manage
+2023/10/25 17:39:28 [INFO] Creating ingress-manage
+2023/10/25 17:39:28 [INFO] Creating services-view
+2023/10/25 17:39:28 [INFO] Creating serviceaccounts-view
+2023/10/25 17:39:28 [INFO] Creating clusterroletemplatebindings-manage
+2023/10/25 17:39:28 [INFO] Creating clusterroletemplatebindings-view
+2023/10/25 17:39:28 [INFO] Creating serviceaccounts-manage
+2023/10/25 17:39:28 [INFO] Creating project-monitoring-readonly
+2023/10/25 17:39:28 [INFO] Creating admin
+2023/10/25 17:39:28 [INFO] Creating cluster-member
+2023/10/25 17:39:29 [INFO] Creating projects-create
+2023/10/25 17:39:29 [INFO] Creating storage-manage
+2023/10/25 17:39:29 [INFO] Waiting for initial data to be populated
+2023/10/25 17:39:29 [INFO] Creating secrets-view
+2023/10/25 17:39:29 [INFO] Creating CRD prometheuses.monitoring.coreos.com
+2023/10/25 17:39:29 [INFO] Creating CRD prometheusrules.monitoring.coreos.com
+2023/10/25 17:39:29 [INFO] Creating CRD alertmanagers.monitoring.coreos.com
+2023/10/25 17:39:29 [INFO] Creating CRD servicemonitors.monitoring.coreos.com
+2023/10/25 17:39:30 [INFO] adding kontainer driver rancherKubernetesEngine
+2023/10/25 17:39:30 [INFO] adding kontainer driver googleKubernetesEngine
+2023/10/25 17:39:30 [INFO] adding kontainer driver azureKubernetesService
+2023/10/25 17:39:30 [INFO] adding kontainer driver amazonElasticContainerService
+2023/10/25 17:39:30 [INFO] adding kontainer driver baiducloudcontainerengine
+2023/10/25 17:39:30 [INFO] adding kontainer driver aliyunkubernetescontainerservice
+2023/10/25 17:39:30 [INFO] adding kontainer driver tencentkubernetesengine
+2023/10/25 17:39:30 [INFO] adding kontainer driver huaweicontainercloudengine
+2023/10/25 17:39:30 [INFO] adding kontainer driver oraclecontainerengine
+2023/10/25 17:39:30 [INFO] adding kontainer driver linodekubernetesengine
+2023/10/25 17:39:30 [INFO] Waiting for CRD alertmanagers.monitoring.coreos.com to become available
+2023/10/25 17:39:30 [INFO] adding kontainer driver opentelekomcloudcontainerengine
+2023/10/25 17:39:30 [INFO] Created cattle-global-data namespace
+2023/10/25 17:39:30 [INFO] Created cattle-global-nt namespace
+2023/10/25 17:39:30 [INFO] Creating node driver pinganyunecs
+2023/10/25 17:39:30 [INFO] Creating node driver aliyunecs
+2023/10/25 17:39:32 [INFO] Creating node driver amazonec2
+2023/10/25 17:39:32 [INFO] Done waiting for CRD alertmanagers.monitoring.coreos.com to become available
+2023/10/25 17:39:32 [INFO] Waiting for CRD servicemonitors.monitoring.coreos.com to become available
+2023/10/25 17:39:32 [INFO] Creating node driver azure
+2023/10/25 17:39:32 [INFO] Creating node driver cloudca
+2023/10/25 17:39:32 [INFO] Creating node driver cloudscale
+2023/10/25 17:39:32 [INFO] Creating node driver digitalocean
+2023/10/25 17:39:32 [INFO] generated self-signed CA certificate CN=dynamiclistener-ca@1698255572,O=dynamiclistener-org: notBefore=2023-10-25 17:39:32.3595208 +0000 UTC notAfter=2033-10-22 17:39:32.3595208 +0000 UTC
+2023/10/25 17:39:32 [INFO] Creating node driver exoscale
+2023/10/25 17:39:32 [INFO] Creating node driver google
+2023/10/25 17:39:32 [INFO] Creating node driver harvester
+2023/10/25 17:39:32 [INFO] Creating node driver linode
+2023/10/25 17:39:32 [INFO] Listening on :443
+2023/10/25 17:39:32 [INFO] Listening on :80
+2023/10/25 17:39:32 [INFO] certificate CN=dynamic,O=dynamic signed by CN=dynamiclistener-ca@1698255572,O=dynamiclistener-org: notBefore=2023-10-25 17:39:32 +0000 UTC notAfter=2024-10-24 17:39:32 +0000 UTC
+2023/10/25 17:39:32 [WARNING] dynamiclistener [::]:443: no cached certificate available for preload - deferring certificate load until storage initialization or first client request
+2023/10/25 17:39:32 [INFO] Creating node driver oci
+2023/10/25 17:39:32 [INFO] Creating new TLS secret for cattle-system/serving-cert (count: 4): map[listener.cattle.io/cn-127.0.0.1:127.0.0.1 listener.cattle.io/cn-172.17.0.2:172.17.0.2 listener.cattle.io/cn-localhost:localhost listener.cattle.io/cn-rancher.cattle-system:rancher.cattle-system listener.cattle.io/fingerprint:SHA1=18B8CA163E0C35190DC2C49A1D9242681EB57036]
+2023/10/25 17:39:32 [INFO] Done waiting for CRD servicemonitors.monitoring.coreos.com to become available
+2023/10/25 17:39:32 [INFO] Creating node driver openstack
+2023/10/25 17:39:33 [INFO] Active TLS secret cattle-system/serving-cert (ver=1352) (count 4): map[listener.cattle.io/cn-127.0.0.1:127.0.0.1 listener.cattle.io/cn-172.17.0.2:172.17.0.2 listener.cattle.io/cn-localhost:localhost listener.cattle.io/cn-rancher.cattle-system:rancher.cattle-system listener.cattle.io/fingerprint:SHA1=18B8CA163E0C35190DC2C49A1D9242681EB57036]
+2023/10/25 17:39:33 [INFO] generated self-signed CA certificate CN=dynamiclistener-ca@1698255573,O=dynamiclistener-org: notBefore=2023-10-25 17:39:33.0150462 +0000 UTC notAfter=2033-10-22 17:39:33.0150462 +0000 UTC
+2023/10/25 17:39:35 [INFO] Creating node driver otc
+2023/10/25 17:39:35 [INFO] Listening on :444
+2023/10/25 17:39:35 [INFO] certificate CN=dynamic,O=dynamic signed by CN=dynamiclistener-ca@1698255573,O=dynamiclistener-org: notBefore=2023-10-25 17:39:33 +0000 UTC notAfter=2024-10-24 17:39:35 +0000 UTC
+2023/10/25 17:39:35 [WARNING] dynamiclistener [::]:444: no cached certificate available for preload - deferring certificate load until storage initialization or first client request
+2023/10/25 17:39:35 [INFO] Creating new TLS secret for cattle-system/tls-rancher-internal (count: 1): map[listener.cattle.io/cn-10.43.189.84:10.43.189.84 listener.cattle.io/fingerprint:SHA1=350B64CD052AB498308382E1F1020ECDC857FBC9]
+2023/10/25 17:39:35 [INFO] Creating node driver packet
+2023/10/25 17:39:35 [INFO] Active TLS secret cattle-system/tls-rancher-internal (ver=1358) (count 1): map[listener.cattle.io/cn-10.43.189.84:10.43.189.84 listener.cattle.io/fingerprint:SHA1=350B64CD052AB498308382E1F1020ECDC857FBC9]
+2023/10/25 17:39:35 [INFO] Creating node driver pnap
+2023/10/25 17:39:35 [INFO] Creating node driver rackspace
+2023/10/25 17:39:35 [INFO] Creating node driver softlayer
+2023/10/25 17:39:35 [INFO] Starting /v1, Kind=Secret controller
+2023/10/25 17:39:35 [INFO] Creating node driver nutanix
+2023/10/25 17:39:35 [INFO] Updating TLS secret for cattle-system/serving-cert (count: 4): map[listener.cattle.io/cn-127.0.0.1:127.0.0.1 listener.cattle.io/cn-172.17.0.2:172.17.0.2 listener.cattle.io/cn-localhost:localhost listener.cattle.io/cn-rancher.cattle-system:rancher.cattle-system listener.cattle.io/fingerprint:SHA1=18B8CA163E0C35190DC2C49A1D9242681EB57036]
+2023/10/25 17:39:35 [INFO] Updating TLS secret for cattle-system/tls-rancher-internal (count: 1): map[listener.cattle.io/cn-10.43.189.84:10.43.189.84 listener.cattle.io/fingerprint:SHA1=350B64CD052AB498308382E1F1020ECDC857FBC9]
+2023/10/25 17:39:35 [INFO] Creating node driver outscale
+2023/10/25 17:39:35 [INFO] Creating node driver vmwarevsphere
+2023/10/25 17:39:36 [INFO] Starting /v1, Kind=Node controller
+2023/10/25 17:39:36 [INFO] Starting admissionregistration.k8s.io/v1, Kind=ValidatingWebhookConfiguration controller
+2023/10/25 17:39:36 [INFO] Starting batch/v1, Kind=Job controller
+2023/10/25 17:39:36 [INFO] Starting rke.cattle.io/v1, Kind=RKECluster controller
+2023/10/25 17:39:36 [INFO] Starting management.cattle.io/v3, Kind=FleetWorkspace controller
+2023/10/25 17:39:36 [INFO] Starting networking.k8s.io/v1, Kind=Ingress controller
+2023/10/25 17:39:36 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:39:36 [INFO] Starting monitoring.coreos.com/v1, Kind=Prometheus controller
+2023/10/25 17:39:36 [INFO] Starting fleet.cattle.io/v1alpha1, Kind=Cluster controller
+2023/10/25 17:39:36 [INFO] Starting apps/v1, Kind=ReplicaSet controller
+2023/10/25 17:39:36 [INFO] Starting management.cattle.io/v3, Kind=ManagedChart controller
+2023/10/25 17:39:36 [INFO] Starting /v1, Kind=Service controller
+2023/10/25 17:39:36 [INFO] Starting management.cattle.io/v3, Kind=EtcdBackup controller
+2023/10/25 17:39:36 [INFO] Starting catalog.cattle.io/v1, Kind=App controller
+2023/10/25 17:39:36 [INFO] Starting catalog.cattle.io/v1, Kind=Operation controller
+2023/10/25 17:39:36 [INFO] Starting cluster.x-k8s.io/v1beta1, Kind=MachineSet controller
+2023/10/25 17:39:36 [INFO] Starting rke.cattle.io/v1, Kind=RKEControlPlane controller
+2023/10/25 17:39:36 [INFO] Starting apps/v1, Kind=DaemonSet controller
+2023/10/25 17:39:36 [INFO] Starting admissionregistration.k8s.io/v1, Kind=MutatingWebhookConfiguration controller
+2023/10/25 17:39:36 [INFO] Starting monitoring.coreos.com/v1, Kind=ServiceMonitor controller
+2023/10/25 17:39:36 [INFO] Starting batch/v1, Kind=CronJob controller
+2023/10/25 17:39:36 [INFO] Starting fleet.cattle.io/v1alpha1, Kind=Bundle controller
+2023/10/25 17:39:36 [INFO] Starting rke.cattle.io/v1, Kind=CustomMachine controller
+2023/10/25 17:39:36 [INFO] Detected v2.6.0 upgrade, forcing logout for all web users
+2023/10/25 17:39:36 [INFO] Starting /v1, Kind=Pod controller
+2023/10/25 17:39:36 [INFO] Starting apps/v1, Kind=StatefulSet controller
+2023/10/25 17:39:36 [INFO] Starting rke.cattle.io/v1, Kind=ETCDSnapshot controller
+2023/10/25 17:39:36 [INFO] Starting apps/v1, Kind=Deployment controller
+2023/10/25 17:39:36 [INFO] Starting /v1, Kind=Endpoints controller
+2023/10/25 17:39:36 [INFO] Starting /v1, Kind=ReplicationController controller
+2023/10/25 17:39:36 [INFO] Starting rke.cattle.io/v1, Kind=RKEBootstrapTemplate controller
+2023/10/25 17:39:36 [INFO] Starting cluster.x-k8s.io/v1beta1, Kind=Cluster controller
+2023/10/25 17:39:36 [INFO] Starting fleet.cattle.io/v1alpha1, Kind=ClusterGroup controller
+2023/10/25 17:39:36 [INFO] Starting cluster.x-k8s.io/v1beta1, Kind=MachineDeployment controller
+2023/10/25 17:39:36 [INFO] EnsureSecretForServiceAccount: waiting for secret [git-webhook-api-service-token-hjgm8] to be populated with token
+2023/10/25 17:39:37 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:38 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:38 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:38 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:38 [ERROR] error syncing 'fleet-local/local': handler workspace-backport-cluster: fleetworkspaces.management.cattle.io "fleet-local" not found, requeuing
+2023/10/25 17:39:38 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:39 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:39 [INFO] Starting catalog controller
+2023/10/25 17:39:39 [INFO] Starting project-level catalog controller
+2023/10/25 17:39:39 [INFO] Starting cluster-level catalog controller
+2023/10/25 17:39:39 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:40 [INFO] Starting management.cattle.io/v3, Kind=ClusterAlertGroup controller
+2023/10/25 17:39:40 [INFO] Refreshing driverMetadata in 1440 minutes
+2023/10/25 17:39:40 [INFO] Starting management.cattle.io/v3, Kind=ComposeConfig controller
+2023/10/25 17:39:40 [INFO] Starting management.cattle.io/v3, Kind=Notifier controller
+2023/10/25 17:39:40 [INFO] Starting management.cattle.io/v3, Kind=GlobalDnsProvider controller
+2023/10/25 17:39:40 [INFO] getReleaseConfig: reloading config for rke2
+2023/10/25 17:39:40 [INFO] getReleaseConfig: reloading config for k3s
+2023/10/25 17:39:40 [INFO] Starting management.cattle.io/v3, Kind=ClusterAlertRule controller
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-user-base for corresponding GlobalRole
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-settings-manage for corresponding GlobalRole
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-clustertemplates-create for corresponding GlobalRole
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-clusters-create for corresponding GlobalRole
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-kontainerdrivers-manage for corresponding GlobalRole
+2023/10/25 17:39:40 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-catalogs-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-roles-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:39:41 [INFO] create kontainerdriver amazonelasticcontainerservice
+2023/10/25 17:39:41 [INFO] create kontainerdriver azurekubernetesservice
+2023/10/25 17:39:41 [INFO] create kontainerdriver opentelekomcloudcontainerengine
+2023/10/25 17:39:41 [INFO] create kontainerdriver linodekubernetesengine
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider keycloak because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] create kontainerdriver oraclecontainerengine
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider adfs because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider github because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider openldap because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider activedirectory because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-catalogs-use for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-user for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] create kontainerdriver aliyunkubernetescontainerservice
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider ping because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-authn-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-clustertemplaterevisions-create for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-podsecuritypolicytemplates-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-admin for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-nodedrivers-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-restricted-admin for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-view-rancher-metrics for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-features-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] [mgmt-auth-gr-controller] Creating clusterRole cattle-globalrole-users-manage for corresponding GlobalRole
+2023/10/25 17:39:41 [INFO] create kontainerdriver googlekubernetesengine
+2023/10/25 17:39:41 [INFO] Refusing to reset the config and clean up resources of the auth provider shibboleth because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:42 [INFO] [mgmt-cluster-rbac-delete] Creating Default project for cluster local
+2023/10/25 17:39:42 [INFO] Refusing to reset the config and clean up resources of the auth provider keycloakoidc because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:42 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:43 [INFO] Refusing to reset the config and clean up resources of the auth provider azuread because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:43 [INFO] Refusing to reset the config and clean up resources of the auth provider oidc because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:43 [INFO] Refusing to reset the config and clean up resources of the auth provider okta because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:43 [INFO] Refusing to reset the config and clean up resources of the auth provider freeipa because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:43 [INFO] Refusing to reset the config and clean up resources of the auth provider googleoauth because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:43 [INFO] create kontainerdriver baiducloudcontainerengine
+2023/10/25 17:39:43 [INFO] Creating new GlobalRoleBinding for GlobalRoleBinding globalrolebinding-5zck6
+2023/10/25 17:39:43 [INFO] [mgmt-auth-grb-controller] Creating clusterRoleBinding for globalRoleBinding globalrolebinding-5zck6 for user user-c8bt2 with role cattle-globalrole-admin
+2023/10/25 17:39:43 [INFO] create kontainerdriver huaweicontainercloudengine
+2023/10/25 17:39:43 [INFO] create kontainerdriver rancherkubernetesengine
+2023/10/25 17:39:43 [INFO] [mgmt-auth-crtb-controller] Creating role/clusterRole local-clusterowner
+2023/10/25 17:39:44 [INFO] create kontainerdriver tencentkubernetesengine
+2023/10/25 17:39:44 [INFO] Starting API controllers
+2023/10/25 17:39:44 [INFO] Rancher startup complete
+2023/10/25 17:39:44 [INFO] checking configmap cattle-system/admincreated to determine if orphan bindings cleanup needs to run
+2023/10/25 17:39:44 [INFO] checking configmap cattle-system/admincreated to determine if duplicate bindings cleanup needs to run
+2023/10/25 17:39:44 [INFO] Watching metadata for cluster.x-k8s.io/v1alpha3, Kind=MachineDeployment
+2023/10/25 17:39:44 [INFO] Watching metadata for cluster.x-k8s.io/v1alpha3, Kind=Cluster
+2023/10/25 17:39:44 [INFO] Watching metadata for cluster.x-k8s.io/v1alpha3, Kind=MachineHealthCheck
+2023/10/25 17:39:44 [INFO] Watching metadata for cluster.x-k8s.io/v1alpha3, Kind=Machine
+2023/10/25 17:39:44 [INFO] Watching metadata for cluster.x-k8s.io/v1alpha3, Kind=MachineSet
+2023/10/25 17:39:44 [INFO] [mgmt-auth-crtb-controller] Creating clusterRoleBinding for membership in cluster local for subject u-mo773yttt4
+2023/10/25 17:39:44 [INFO] [mgmt-project-rbac-create] Creating namespace p-2fplk
+2023/10/25 17:39:46 [INFO] create kontainerdriver azurekubernetesservice
+2023/10/25 17:39:46 [INFO] create kontainerdriver googlekubernetesengine
+2023/10/25 17:39:46 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:39:46 [INFO] update kontainerdriver linodekubernetesengine
+2023/10/25 17:39:47 [INFO] update kontainerdriver amazonelasticcontainerservice
+2023/10/25 17:39:47 [INFO] create kontainerdriver huaweicontainercloudengine
+2023/10/25 17:39:47 [INFO] driverMetadata: refreshing data from upstream https://releases.rancher.com/kontainer-driver-metadata/release-v2.7/data.json
+2023/10/25 17:39:47 [INFO] create kontainerdriver baiducloudcontainerengine
+2023/10/25 17:39:47 [ERROR] error syncing 'globalrolebinding-5zck6': handler mgmt-auth-grb-controller: roles.rbac.authorization.k8s.io "cattle-global-data/admin-global-catalog" not found, requeuing
+2023/10/25 17:39:47 [INFO] create kontainerdriver rancherkubernetesengine
+2023/10/25 17:39:47 [INFO] [mgmt-auth-crtb-controller] Creating role cluster-owner in namespace local
+2023/10/25 17:39:47 [INFO] Retrieve data.json from local path /var/lib/rancher-data/driver-metadata/data.json
+2023/10/25 17:39:47 [INFO] update kontainerdriver opentelekomcloudcontainerengine
+2023/10/25 17:39:47 [INFO] update kontainerdriver oraclecontainerengine
+2023/10/25 17:39:47 [INFO] create kontainerdriver aliyunkubernetescontainerservice
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=RKEBootstrap controller
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=CustomMachine controller
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=RKECluster controller
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=RKEControlPlane controller
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=RKEBootstrapTemplate controller
+2023/10/25 17:39:48 [INFO] Starting provisioning.cattle.io/v1, Kind=Cluster controller
+2023/10/25 17:39:48 [INFO] Starting cluster.x-k8s.io/v1alpha3, Kind=MachineHealthCheck controller
+2023/10/25 17:39:48 [INFO] Starting rke.cattle.io/v1, Kind=ETCDSnapshot controller
+2023/10/25 17:39:48 [INFO] Starting cluster.x-k8s.io/v1alpha3, Kind=Machine controller
+2023/10/25 17:39:48 [INFO] Starting cluster.x-k8s.io/v1alpha3, Kind=MachineSet controller
+2023/10/25 17:39:48 [INFO] Starting cluster.x-k8s.io/v1alpha3, Kind=MachineDeployment controller
+2023/10/25 17:39:48 [INFO] Starting cluster.x-k8s.io/v1alpha3, Kind=Cluster controller
+2023/10/25 17:39:48 [INFO] bindings cleanup needed, waiting 3 minutes before starting
+2023/10/25 17:39:48 [INFO] [clean-orphan-bindings] cleaning up orphaned bindings
+2023/10/25 17:39:48 [INFO] update kontainerdriver tencentkubernetesengine
+2023/10/25 17:39:49 [INFO] update kontainerdriver azurekubernetesservice
+2023/10/25 17:39:49 [INFO] [mgmt-cluster-rbac-delete] Creating System project for cluster local
+2023/10/25 17:39:51 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:39:51 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-mo773yttt4 with role cluster-owner in namespace local
+2023/10/25 17:39:52 [INFO] [clean-orphan-bindings] checking for orphaned rolebindings
+2023/10/25 17:39:52 [INFO] [mgmt-cluster-rbac-delete] Updating cluster local
+2023/10/25 17:39:52 [INFO] [mgmt-auth-crtb-controller] Creating role cluster-owner in namespace p-2fplk
+2023/10/25 17:39:52 [WARNING] Project p-2fplk has no creatorId annotation. Cannot add creator as owner
+2023/10/25 17:39:52 [INFO] [mgmt-project-rbac-create] Updating project p-2fplk
+2023/10/25 17:39:52 [INFO] [mgmt-project-rbac-create] Creating namespace p-nvpsx
+2023/10/25 17:39:52 [INFO] update kontainerdriver rancherkubernetesengine
+2023/10/25 17:39:52 [INFO] update kontainerdriver baiducloudcontainerengine
+2023/10/25 17:39:52 [INFO] update kontainerdriver googlekubernetesengine
+2023/10/25 17:39:52 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:52 [INFO] update kontainerdriver rancherkubernetesengine
+2023/10/25 17:39:52 [INFO] update kontainerdriver aliyunkubernetescontainerservice
+2023/10/25 17:39:52 [INFO] update kontainerdriver baiducloudcontainerengine
+2023/10/25 17:39:52 [INFO] update kontainerdriver aliyunkubernetescontainerservice
+2023/10/25 17:39:52 [INFO] update kontainerdriver huaweicontainercloudengine
+2023/10/25 17:39:53 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-mo773yttt4 with role cluster-owner in namespace p-2fplk
+2023/10/25 17:39:53 [WARNING] Project p-nvpsx has no creatorId annotation. Cannot add creator as owner
+2023/10/25 17:39:53 [INFO] [mgmt-project-rbac-create] Updating project p-nvpsx
+2023/10/25 17:39:55 [INFO] [mgmt-auth-crtb-controller] Creating role cluster-owner in namespace p-nvpsx
+2023/10/25 17:39:55 [INFO] Refusing to reset the config and clean up resources of the auth provider activedirectory because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:55 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-mo773yttt4 with role cluster-owner in namespace p-nvpsx
+2023/10/25 17:39:55 [INFO] [mgmt-cluster-rbac-delete] Updating cluster local
+2023/10/25 17:39:55 [INFO] Refusing to reset the config and clean up resources of the auth provider activedirectory because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:55 [WARNING] Cluster local has no creatorId annotation. Cannot add creator as owner
+2023/10/25 17:39:55 [INFO] [mgmt-cluster-rbac-delete] Updating cluster local
+2023/10/25 17:39:55 [INFO] [migrate-ad-user] during unmigration, found that Active Directory is not enabled. nothing to do
+2023/10/25 17:39:55 [INFO] Refusing to reset the config and clean up resources of the auth provider activedirectory because its auth config annotation management.cattle.io/auth-provider-cleanup is set to rancher-locked.
+2023/10/25 17:39:55 [WARNING] Cluster local has no creatorId annotation. Cannot add creator as owner
+2023/10/25 17:39:55 [INFO] [mgmt-cluster-rbac-delete] Updating cluster local
+2023/10/25 17:39:56 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:39:57 [INFO] [CleanupOrphanBindingsDone] successfully cleaned up orphan bindings
+2023/10/25 17:39:57 [INFO] checking configmap cattle-system/admincreated to determine if orphan bindings cleanup needs to run
+2023/10/25 17:39:57 [INFO] [clean-catalog-orphan-bindings] cleaning up orphaned catalog bindings
+2023/10/25 17:39:57 [INFO] [clean-catalog-orphan-bindings] Processing 1 rolebindings
+2023/10/25 17:39:57 [INFO] [clean-catalog-orphan-bindings] Deleting orphaned role global-catalog
+2023/10/25 17:39:57 [INFO] [CleanupOrphanCatalogBindingsDone] successfully cleaned up orphan bindings
+2023/10/25 17:39:57 [ERROR] error syncing 'linode': handler node-driver-controller: Failed to dial the plugin server in 10s, requeuing
+2023/10/25 17:39:57 [INFO] kontainerdriver azurekubernetesservice listening on address 127.0.0.1:40729
+2023/10/25 17:39:57 [INFO] kontainerdriver amazonelasticcontainerservice listening on address 127.0.0.1:40581
+2023/10/25 17:39:58 [INFO] kontainerdriver googlekubernetesengine listening on address 127.0.0.1:40641
+2023/10/25 17:39:58 [INFO] kontainerdriver googlekubernetesengine stopped
+2023/10/25 17:39:58 [INFO] kontainerdriver azurekubernetesservice stopped
+2023/10/25 17:39:58 [INFO] kontainerdriver amazonelasticcontainerservice stopped
+2023/10/25 17:39:59 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:39:59 [INFO] update kontainerdriver googlekubernetesengine
+2023/10/25 17:39:59 [ERROR] error syncing 'azurekubernetesservice': handler mgmt-kontainer-driver-lifecycle: dynamicschemas.management.cattle.io "cluster" already exists, requeuing
+2023/10/25 17:39:59 [INFO] update kontainerdriver azurekubernetesservice
+2023/10/25 17:40:00 [INFO] update kontainerdriver amazonelasticcontainerservice
+2023/10/25 17:40:00 [INFO] Starting cluster controllers for local
+2023/10/25 17:40:01 [INFO] Starting management.cattle.io/v3, Kind=SamlToken controller
+2023/10/25 17:40:01 [INFO] Starting management.cattle.io/v3, Kind=ClusterAlert controller
+2023/10/25 17:40:01 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:02 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=Role controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=Namespace controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=Secret controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=ServiceAccount controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=LimitRange controller
+2023/10/25 17:40:02 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=ClusterRole controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=ResourceQuota controller
+2023/10/25 17:40:02 [INFO] Starting apiregistration.k8s.io/v1, Kind=APIService controller
+2023/10/25 17:40:02 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=ClusterRoleBinding controller
+2023/10/25 17:40:02 [INFO] Starting cluster agent for local [owner=true]
+2023/10/25 17:40:02 [INFO] Starting rbac.authorization.k8s.io/v1, Kind=RoleBinding controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=ConfigMap controller
+2023/10/25 17:40:02 [INFO] Starting /v1, Kind=Node controller
+2023/10/25 17:40:02 [INFO] Creating clusterRole for roleTemplate Cluster Owner (cluster-owner).
+2023/10/25 17:40:02 [INFO] Created machine for node [local-node]
+2023/10/25 17:40:02 [INFO] Creating clusterRole for roleTemplate Cluster Owner (cluster-owner).
+2023/10/25 17:40:02 [INFO] Creating clusterRoleBinding User u-mo773yttt4 Role cluster-owner
+2023/10/25 17:40:02 [INFO] Creating clusterRoleBinding User u-mo773yttt4 Role cluster-owner
+2023/10/25 17:40:04 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-global-nt
+2023/10/25 17:40:04 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-2fplk to namespace=default
+2023/10/25 17:40:04 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-global-nt, err=Operation cannot be fulfilled on namespaces "cattle-global-nt": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:04 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-global-data
+2023/10/25 17:40:04 [INFO] kontainerdriver googlekubernetesengine listening on address 127.0.0.1:33357
+2023/10/25 17:40:04 [INFO] kontainerdriver googlekubernetesengine stopped
+2023/10/25 17:40:04 [INFO] dynamic schema for kontainerdriver googlekubernetesengine updating
+2023/10/25 17:40:04 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-system, err=Operation cannot be fulfilled on namespaces "cattle-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:04 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "cattle-global-nt": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:04 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "default": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:05 [INFO] kontainerdriver azurekubernetesservice listening on address 127.0.0.1:46793
+2023/10/25 17:40:05 [INFO] kontainerdriver azurekubernetesservice stopped
+2023/10/25 17:40:05 [INFO] dynamic schema for kontainerdriver azurekubernetesservice updating
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-2fplk to namespace=default
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-global-nt
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=kube-public
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=fleet-default
+2023/10/25 17:40:05 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "cattle-global-data": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:05 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-global-data, err=Operation cannot be fulfilled on namespaces "cattle-global-data": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:05 [INFO] kontainerdriver amazonelasticcontainerservice listening on address 127.0.0.1:33449
+2023/10/25 17:40:05 [INFO] kontainerdriver amazonelasticcontainerservice stopped
+2023/10/25 17:40:05 [INFO] dynamic schema for kontainerdriver amazonelasticcontainerservice updating
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=kube-node-lease
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-impersonation-system
+2023/10/25 17:40:05 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=kube-system
+2023/10/25 17:40:06 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-global-data
+2023/10/25 17:40:06 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=kube-node-lease, err=Operation cannot be fulfilled on namespaces "kube-node-lease": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:06 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=kube-public, err=Operation cannot be fulfilled on namespaces "kube-public": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:08 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:08 [INFO] EnsureSecretForServiceAccount: waiting for secret [cattle-impersonation-u-mo773yttt4-token-xtwdd] to be populated with token
+2023/10/25 17:40:08 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "kube-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:08 [INFO] update kontainerdriver azurekubernetesservice
+2023/10/25 17:40:08 [INFO] Creating user for principal system://local
+2023/10/25 17:40:08 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=fleet-local
+2023/10/25 17:40:08 [INFO] Updating TLS secret for cattle-system/serving-cert (count: 5): map[field.cattle.io/projectId:local:p-nvpsx listener.cattle.io/cn-127.0.0.1:127.0.0.1 listener.cattle.io/cn-172.17.0.2:172.17.0.2 listener.cattle.io/cn-localhost:localhost listener.cattle.io/cn-rancher.cattle-system:rancher.cattle-system listener.cattle.io/fingerprint:SHA1=18B8CA163E0C35190DC2C49A1D9242681EB57036]
+2023/10/25 17:40:09 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "fleet-local": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:09 [INFO] Active TLS secret cattle-system/serving-cert (ver=2151) (count 5): map[field.cattle.io/projectId:local:p-nvpsx listener.cattle.io/cn-127.0.0.1:127.0.0.1 listener.cattle.io/cn-172.17.0.2:172.17.0.2 listener.cattle.io/cn-localhost:localhost listener.cattle.io/cn-rancher.cattle-system:rancher.cattle-system listener.cattle.io/fingerprint:SHA1=18B8CA163E0C35190DC2C49A1D9242681EB57036]
+2023/10/25 17:40:09 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=kube-system
+2023/10/25 17:40:09 [INFO] Updating TLS secret for cattle-system/tls-rancher-internal (count: 2): map[field.cattle.io/projectId:local:p-nvpsx listener.cattle.io/cn-10.43.189.84:10.43.189.84 listener.cattle.io/fingerprint:SHA1=350B64CD052AB498308382E1F1020ECDC857FBC9]
+2023/10/25 17:40:09 [INFO] Creating globalRoleBindings for u-b4qkhsnliz
+2023/10/25 17:40:09 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=fleet-local
+2023/10/25 17:40:09 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "kube-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:09 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=fleet-default, err=Operation cannot be fulfilled on namespaces "fleet-default": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:09 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=p-2fplk, err=Operation cannot be fulfilled on namespaces "p-2fplk": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:09 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-system
+2023/10/25 17:40:09 [INFO] Active TLS secret cattle-system/tls-rancher-internal (ver=2180) (count 2): map[field.cattle.io/projectId:local:p-nvpsx listener.cattle.io/cn-10.43.189.84:10.43.189.84 listener.cattle.io/fingerprint:SHA1=350B64CD052AB498308382E1F1020ECDC857FBC9]
+2023/10/25 17:40:09 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=p-nvpsx, err=Operation cannot be fulfilled on namespaces "p-nvpsx": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:10 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-impersonation-system, err=Operation cannot be fulfilled on namespaces "cattle-impersonation-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:10 [INFO] Creating new GlobalRoleBinding for GlobalRoleBinding grb-6nkwg
+2023/10/25 17:40:10 [INFO] [mgmt-auth-grb-controller] Creating clusterRoleBinding for globalRoleBinding grb-6nkwg for user u-b4qkhsnliz with role cattle-globalrole-user
+2023/10/25 17:40:10 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:40:10 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "cattle-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:10 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-system, err=Operation cannot be fulfilled on namespaces "cattle-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:10 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=kube-system
+2023/10/25 17:40:11 [INFO] [mgmt-auth-crtb-controller] Creating clusterRoleBinding for membership in cluster local for subject u-b4qkhsnliz
+2023/10/25 17:40:11 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=kube-node-lease, err=Operation cannot be fulfilled on namespaces "kube-node-lease": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:12 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=kube-public, err=Operation cannot be fulfilled on namespaces "kube-public": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:12 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-b4qkhsnliz with role cluster-owner in namespace local
+2023/10/25 17:40:12 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=kube-node-lease, err=Operation cannot be fulfilled on namespaces "kube-node-lease": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:12 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-b4qkhsnliz with role cluster-owner in namespace p-2fplk
+2023/10/25 17:40:12 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-system
+2023/10/25 17:40:12 [INFO] [mgmt-auth-crtb-controller] Creating roleBinding for subject u-b4qkhsnliz with role cluster-owner in namespace p-nvpsx
+2023/10/25 17:40:12 [ERROR] namespaceHandler: Sync: error adding project id label to namespace err=Operation cannot be fulfilled on namespaces "cattle-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:40:13 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:13 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-system
+2023/10/25 17:40:13 [INFO] Creating clusterRoleBinding User u-b4qkhsnliz Role cluster-owner
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ComposeConfig
+2023/10/25 17:40:13 [INFO] Watching metadata for node.k8s.io/v1, Kind=RuntimeClass
+2023/10/25 17:40:13 [INFO] Watching metadata for fleet.cattle.io/v1alpha1, Kind=ClusterGroup
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=TemplateContent
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=ConfigMap
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Node
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterRoleTemplateBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=ResourceQuota
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Event
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=RKEBootstrapTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for helm.cattle.io/v1, Kind=HelmChartConfig
+2023/10/25 17:40:13 [INFO] Watching metadata for k3s.cattle.io/v1, Kind=Addon
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=PodSecurityAdmissionConfigurationTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for cluster.x-k8s.io/v1beta1, Kind=MachineHealthCheck
+2023/10/25 17:40:13 [INFO] Watching metadata for monitoring.coreos.com/v1, Kind=Alertmanager
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=RkeK8sServiceOption
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Catalog
+2023/10/25 17:40:13 [INFO] Watching metadata for rbac.authorization.k8s.io/v1, Kind=Role
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=PodSecurityPolicyTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectAlert
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=RancherUserNotification
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=GroupMember
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectRoleTemplateBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=MultiClusterAppRevision
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=CatalogTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for storage.k8s.io/v1, Kind=CSIDriver
+2023/10/25 17:40:13 [INFO] Watching metadata for flowcontrol.apiserver.k8s.io/v1beta3, Kind=FlowSchema
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterCatalog
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectMonitorGraph
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=UserAttribute
+2023/10/25 17:40:13 [INFO] Watching metadata for certificates.k8s.io/v1, Kind=CertificateSigningRequest
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=RKEControlPlane
+2023/10/25 17:40:13 [INFO] Watching metadata for catalog.cattle.io/v1, Kind=ClusterRepo
+2023/10/25 17:40:13 [INFO] Watching metadata for storage.k8s.io/v1, Kind=CSINode
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectAlertGroup
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterAlertRule
+2023/10/25 17:40:13 [INFO] Watching metadata for monitoring.coreos.com/v1, Kind=Prometheus
+2023/10/25 17:40:13 [INFO] Watching metadata for cluster.x-k8s.io/v1beta1, Kind=MachineDeployment
+2023/10/25 17:40:13 [INFO] Watching metadata for events.k8s.io/v1, Kind=Event
+2023/10/25 17:40:13 [INFO] Watching metadata for fleet.cattle.io/v1alpha1, Kind=Cluster
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Namespace
+2023/10/25 17:40:13 [INFO] Watching metadata for catalog.cattle.io/v1, Kind=Operation
+2023/10/25 17:40:13 [INFO] Watching metadata for apps/v1, Kind=ReplicaSet
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=RkeAddon
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=SamlToken
+2023/10/25 17:40:13 [INFO] Watching metadata for scheduling.k8s.io/v1, Kind=PriorityClass
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Setting
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=PersistentVolume
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=AuthConfig
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=GlobalRole
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=GlobalDns
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Project
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ManagedChart
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Token
+2023/10/25 17:40:13 [INFO] Watching metadata for coordination.k8s.io/v1, Kind=Lease
+2023/10/25 17:40:13 [INFO] Watching metadata for catalog.cattle.io/v1, Kind=App
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=PodSecurityPolicyTemplateProjectBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for apiregistration.k8s.io/v1, Kind=APIService
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=CatalogTemplateVersion
+2023/10/25 17:40:13 [INFO] Watching metadata for admissionregistration.k8s.io/v1, Kind=MutatingWebhookConfiguration
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=RKEBootstrap
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for networking.k8s.io/v1, Kind=IngressClass
+2023/10/25 17:40:13 [INFO] Watching metadata for monitoring.coreos.com/v1, Kind=ServiceMonitor
+2023/10/25 17:40:13 [INFO] Watching metadata for project.cattle.io/v3, Kind=AppRevision
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectAlertRule
+2023/10/25 17:40:13 [INFO] Watching metadata for provisioning.cattle.io/v1, Kind=Cluster
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectCatalog
+2023/10/25 17:40:13 [INFO] Watching metadata for rbac.authorization.k8s.io/v1, Kind=ClusterRoleBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for storage.k8s.io/v1, Kind=CSIStorageCapacity
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Pod
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Group
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Preference
+2023/10/25 17:40:13 [INFO] Watching metadata for discovery.k8s.io/v1, Kind=EndpointSlice
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterAlert
+2023/10/25 17:40:13 [INFO] Watching metadata for cluster.x-k8s.io/v1beta1, Kind=Machine
+2023/10/25 17:40:13 [INFO] Watching metadata for cluster.x-k8s.io/v1beta1, Kind=MachineSet
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Feature
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=EtcdBackup
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=LimitRange
+2023/10/25 17:40:13 [INFO] Watching metadata for ui.cattle.io/v1, Kind=NavLink
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=RKECluster
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=ServiceAccount
+2023/10/25 17:40:13 [INFO] Watching metadata for flowcontrol.apiserver.k8s.io/v1beta3, Kind=PriorityLevelConfiguration
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=TemplateVersion
+2023/10/25 17:40:13 [INFO] Watching metadata for apps/v1, Kind=ControllerRevision
+2023/10/25 17:40:13 [INFO] Watching metadata for rbac.authorization.k8s.io/v1, Kind=ClusterRole
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterRegistrationToken
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=FleetWorkspace
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Endpoints
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Notifier
+2023/10/25 17:40:13 [INFO] Watching metadata for apps/v1, Kind=StatefulSet
+2023/10/25 17:40:13 [INFO] Watching metadata for cluster.x-k8s.io/v1beta1, Kind=Cluster
+2023/10/25 17:40:13 [INFO] Watching metadata for project.cattle.io/v3, Kind=App
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Secret
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=RkeK8sSystemImage
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=DynamicSchema
+2023/10/25 17:40:13 [INFO] Watching metadata for apiextensions.k8s.io/v1, Kind=CustomResourceDefinition
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=RoleTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for apps/v1, Kind=Deployment
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=PersistentVolumeClaim
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Cluster
+2023/10/25 17:40:13 [INFO] Watching metadata for monitoring.coreos.com/v1, Kind=PrometheusRule
+2023/10/25 17:40:13 [INFO] Watching metadata for networking.k8s.io/v1, Kind=Ingress
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterAlertGroup
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=GlobalRoleBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterMonitorGraph
+2023/10/25 17:40:13 [INFO] Watching metadata for admissionregistration.k8s.io/v1, Kind=ValidatingWebhookConfiguration
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=APIService
+2023/10/25 17:40:13 [INFO] Watching metadata for helm.cattle.io/v1, Kind=HelmChart
+2023/10/25 17:40:13 [INFO] Watching metadata for networking.k8s.io/v1, Kind=NetworkPolicy
+2023/10/25 17:40:13 [INFO] Watching metadata for policy/v1, Kind=PodDisruptionBudget
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=GlobalDnsProvider
+2023/10/25 17:40:13 [INFO] Watching metadata for batch/v1, Kind=Job
+2023/10/25 17:40:13 [INFO] Watching metadata for batch/v1, Kind=CronJob
+2023/10/25 17:40:13 [INFO] Watching metadata for fleet.cattle.io/v1alpha1, Kind=Bundle
+2023/10/25 17:40:13 [INFO] Watching metadata for rbac.authorization.k8s.io/v1, Kind=RoleBinding
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Template
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=NodeDriver
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=User
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=PodTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=Node
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ProjectNetworkPolicy
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=KontainerDriver
+2023/10/25 17:40:13 [INFO] Watching metadata for autoscaling/v2, Kind=HorizontalPodAutoscaler
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=NodePool
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=CustomMachine
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=Service
+2023/10/25 17:40:13 [INFO] Watching metadata for rke.cattle.io/v1, Kind=ETCDSnapshot
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=MonitorMetric
+2023/10/25 17:40:13 [INFO] Watching metadata for storage.k8s.io/v1, Kind=VolumeAttachment
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=MultiClusterApp
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=ClusterTemplateRevision
+2023/10/25 17:40:13 [INFO] Watching metadata for storage.k8s.io/v1, Kind=StorageClass
+2023/10/25 17:40:13 [INFO] Watching metadata for management.cattle.io/v3, Kind=NodeTemplate
+2023/10/25 17:40:13 [INFO] Watching metadata for /v1, Kind=ReplicationController
+2023/10/25 17:40:13 [INFO] Watching metadata for apps/v1, Kind=DaemonSet
+2023/10/25 17:40:13 [INFO] kontainerdriver azurekubernetesservice listening on address 127.0.0.1:34397
+2023/10/25 17:40:13 [INFO] kontainerdriver azurekubernetesservice stopped
+2023/10/25 17:40:13 [INFO] dynamic schema for kontainerdriver azurekubernetesservice updating
+2023/10/25 17:40:14 [INFO] update kontainerdriver azurekubernetesservice
+2023/10/25 17:40:14 [INFO] EnsureSecretForServiceAccount: waiting for secret [cattle-impersonation-u-b4qkhsnliz-token-2g4lf] to be populated with token
+2023/10/25 17:40:15 [INFO] Loaded configuration from /var/lib/rancher-data/driver-metadata/data.json in [0x7840ce0 /var/lib/rancher-data/driver-metadata/data.json]
+2023/10/25 17:40:16 [INFO] Loaded configuration from /var/lib/rancher-data/driver-metadata/data.json in [0x7840ce0 /var/lib/rancher-data/driver-metadata/data.json]
+2023/10/25 17:40:17 [INFO] uploading harvesterConfig to nodeconfig schema
+2023/10/25 17:40:17 [INFO] uploading harvesterConfig to nodetemplateconfig schema
+2023/10/25 17:40:17 [INFO] uploading harvestercredentialConfig to credentialconfig schema
+2023/10/25 17:40:17 [INFO] uploading linodeConfig to nodeconfig schema
+2023/10/25 17:40:17 [INFO] uploading linodeConfig to nodetemplateconfig schema
+2023/10/25 17:40:17 [INFO] uploading vmwarevsphereConfig to nodeconfig schema
+2023/10/25 17:40:18 [INFO] uploading vmwarevsphereConfig to nodetemplateconfig schema
+2023/10/25 17:40:18 [INFO] uploading digitaloceanConfig to nodeconfig schema
+2023/10/25 17:40:18 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:18 [INFO] uploading digitaloceanConfig to nodetemplateconfig schema
+2023/10/25 17:40:18 [INFO] uploading amazonec2Config to nodeconfig schema
+2023/10/25 17:40:18 [INFO] uploading amazonec2Config to nodetemplateconfig schema
+2023/10/25 17:40:18 [INFO] uploading linodecredentialConfig to credentialconfig schema
+2023/10/25 17:40:18 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=AzureConfig
+2023/10/25 17:40:18 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=HarvesterConfig
+2023/10/25 17:40:18 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=HarvesterMachine
+2023/10/25 17:40:18 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=AzureMachineTemplate
+2023/10/25 17:40:18 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=AzureMachine
+2023/10/25 17:40:18 [INFO] uploading googlecredentialConfig to credentialconfig schema
+2023/10/25 17:40:19 [INFO] uploading vmwarevspherecredentialConfig to credentialconfig schema
+2023/10/25 17:40:19 [INFO] uploading digitaloceancredentialConfig to credentialconfig schema
+2023/10/25 17:40:19 [INFO] uploading amazonec2credentialConfig to credentialconfig schema
+2023/10/25 17:40:19 [INFO] kontainerdriver azurekubernetesservice listening on address 127.0.0.1:34579
+2023/10/25 17:40:19 [INFO] kontainerdriver azurekubernetesservice stopped
+2023/10/25 17:40:19 [INFO] dynamic schema for kontainerdriver azurekubernetesservice updating
+2023/10/25 17:40:20 [INFO] update kontainerdriver azurekubernetesservice
+2023/10/25 17:40:21 [INFO] Starting rke-machine.cattle.io/v1, Kind=HarvesterMachine controller
+2023/10/25 17:40:21 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=AzureConfig controller
+2023/10/25 17:40:21 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=HarvesterConfig controller
+2023/10/25 17:40:21 [INFO] Starting rke-machine.cattle.io/v1, Kind=AzureMachineTemplate controller
+2023/10/25 17:40:21 [INFO] Starting rke-machine.cattle.io/v1, Kind=AzureMachine controller
+2023/10/25 17:40:21 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=LinodeConfig
+2023/10/25 17:40:21 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=LinodeMachineTemplate
+2023/10/25 17:40:21 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=HarvesterMachineTemplate
+2023/10/25 17:40:21 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=LinodeMachine
+2023/10/25 17:40:22 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=LinodeConfig controller
+2023/10/25 17:40:22 [INFO] Starting rke-machine.cattle.io/v1, Kind=HarvesterMachineTemplate controller
+2023/10/25 17:40:22 [INFO] Starting rke-machine.cattle.io/v1, Kind=LinodeMachineTemplate controller
+2023/10/25 17:40:22 [INFO] Starting rke-machine.cattle.io/v1, Kind=LinodeMachine controller
+2023/10/25 17:40:23 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:25 [INFO] kontainerdriver azurekubernetesservice listening on address 127.0.0.1:36367
+2023/10/25 17:40:25 [INFO] kontainerdriver azurekubernetesservice stopped
+2023/10/25 17:40:25 [INFO] dynamic schema for kontainerdriver azurekubernetesservice updating
+2023/10/25 17:40:27 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=VmwarevsphereConfig
+2023/10/25 17:40:28 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=Amazonec2Config
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=DigitaloceanConfig
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=Amazonec2MachineTemplate
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=VmwarevsphereMachine
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=VmwarevsphereMachineTemplate
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=DigitaloceanMachineTemplate
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=Amazonec2Machine
+2023/10/25 17:40:30 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=DigitaloceanMachine
+2023/10/25 17:40:33 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:38 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:38 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=VmwarevsphereConfig controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=Amazonec2Config controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine-config.cattle.io/v1, Kind=DigitaloceanConfig controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=VmwarevsphereMachineTemplate controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=Amazonec2MachineTemplate controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=VmwarevsphereMachine controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=DigitaloceanMachineTemplate controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=Amazonec2Machine controller
+2023/10/25 17:40:38 [INFO] Starting rke-machine.cattle.io/v1, Kind=DigitaloceanMachine controller
+2023/10/25 17:40:40 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:40:43 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=AzureMachine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=AzureConfig
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=LinodeConfig
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=VmwarevsphereMachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=Amazonec2Machine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=AzureMachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=Amazonec2MachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=DigitaloceanMachine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=VmwarevsphereMachine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=HarvesterMachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=HarvesterMachine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=LinodeMachine
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=DigitaloceanMachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine.cattle.io/v1, Kind=LinodeMachineTemplate
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=HarvesterConfig
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=VmwarevsphereConfig
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=Amazonec2Config
+2023/10/25 17:40:43 [INFO] Watching metadata for rke-machine-config.cattle.io/v1, Kind=DigitaloceanConfig
+2023/10/25 17:40:48 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:53 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:58 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:40:58 [INFO] Refreshing driverMetadata in 1440 minutes
+2023/10/25 17:40:58 [INFO] getReleaseConfig: reloading config for k3s
+2023/10/25 17:40:58 [INFO] getReleaseConfig: reloading config for rke2
+2023/10/25 17:41:03 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:41:03 [ERROR] error syncing 'helm3-library': handler catalog: Retrieving head commit failed: exit status 128, requeuing
+2023/10/25 17:41:05 [INFO] driverMetadata: refreshing data from upstream https://releases.rancher.com/kontainer-driver-metadata/release-v2.7/data.json
+2023/10/25 17:41:05 [INFO] Retrieve data.json from local path /var/lib/rancher-data/driver-metadata/data.json
+2023/10/25 17:41:06 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:09 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:41:09 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:10 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:10 [ERROR] error syncing 'git-webhook': handler apiservice: failed to create cattle-fleet-system/stv-aggregation /v1, Kind=Secret for apiservice git-webhook: namespaces "cattle-fleet-system" not found, requeuing
+2023/10/25 17:41:11 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:11 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:12 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:12 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:13 [INFO] Loaded configuration from /var/lib/rancher-data/driver-metadata/data.json in [0x7840ce0 /var/lib/rancher-data/driver-metadata/data.json]
+2023/10/25 17:41:13 [INFO] Loaded configuration from /var/lib/rancher-data/driver-metadata/data.json in [0x7840ce0 /var/lib/rancher-data/driver-metadata/data.json]
+2023/10/25 17:41:13 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:14 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:14 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:41:15 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:19 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:41:21 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:24 [ERROR] Failed to find system chart fleet will try again in 5 seconds: configmaps "" not found
+2023/10/25 17:41:30 [INFO] namespaceHandler: addProjectIDLabelToNamespace: adding label field.cattle.io/projectId=p-nvpsx to namespace=cattle-fleet-system
+2023/10/25 17:41:30 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-fleet-system, err=Operation cannot be fulfilled on namespaces "cattle-fleet-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:41:30 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-fleet-system, err=Operation cannot be fulfilled on namespaces "cattle-fleet-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:41:30 [ERROR] defaultSvcAccountHandler: Sync: error handling default ServiceAccount of namespace key=cattle-fleet-system, err=Operation cannot be fulfilled on namespaces "cattle-fleet-system": the object has been modified; please apply your changes to the latest version and try again
+2023/10/25 17:41:32 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
+2023/10/25 17:41:53 [ERROR] error syncing 'helm3-library': handler catalog: Update failed: fatal: detected dubious ownership in repository at '/var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/lib/rancher/management-state/catalog-cache/f341cfdfa521a9aa2b993cb34b26bb91b2d173ef1a7df8d41b8921b0e4f82788
+: exit status 128, requeuing
